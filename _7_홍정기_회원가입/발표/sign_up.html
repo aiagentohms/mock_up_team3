@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스파르타클럽 | AI시대, 미래를 돌파하는 힘</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/xpressengine/xeicon@2.4.0/xeicon.min.css">
+</head>
+
+<body>
+    <h1>회원가입</h1>
+    <main>
+        <button type="button" class="btn-close">
+            <i class="xi-close"></i>
+        </button>
+
+        <h2>하나의 계정으로<br>더욱 간편하게</h2>
+        <div class="guide-txt">스파르타에서 제공하는 서비스를<br>
+            하나의 계정으로 모두 이용할 수 있어요.</div>
+        <img src="images/logos.png" class="service-logo">
+        <form method="post" action="#">
+            <section>
+                <div class="box">
+                    <div class="txt">이메일</div>
+                    <input type="text" name="email" placeholder="이메일 입력">
+                </div>
+                <div class="box">
+                    <div class="txt">비밀번호</div>
+                    <input type="password" name="password" placeholder="6자 이상,숫자와 영문자 조합">
+                    <div class="divider"></div>
+                    <input type="password" name="password_confirm" placeholder="비밀번호 재입력">
+                </div>
+                <div class="box">
+                    <div class="txt">이름</div>
+                    <input type="text" name="name" placeholder="이름 입력">
+                </div>
+                <div class="box">
+                    <div class="txt">휴대폰 번호</div>
+                    <input type="text" name="phone" placeholder="대한민국 +82">
+                    <div class="divider"></div>
+                    <input type="number" placeholder="휴대폰 번호 입력 ('-'제외)">
+                    <div class="divider"></div>
+                    <input type="number" placeholder="인증번호 입력">
+                </div>
+                <div class="box">
+                    <div class="txt">
+                        생년월일
+                        <span class="sub-txt">생일에 엄청난 일이 벌어질지도 몰라요!</span>
+                    </div>
+                    <input type="text" name="birth_dt" placeholder="ex. 19990101">
+                </div>
+                <div class="box white gender_selection">
+                    <div class="txt">성별</div>
+                    <div class="gender-btn-group">
+                        <div>
+                            <input type="radio" id='gender_male' name="gender" value="male">
+                            <label for="gender_male">남성</label>
+                        </div>
+                        <div>
+                            <input type="radio" id='gender_female' name="gender" value="female">
+                            <label for="gender_female">여자</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="gender_anonymous" name="gender" value="anonymous">
+                            <label for="gender_anonymous">선택안함</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="box white">
+                    <input type="checkbox" class="select-all" id="select-all">
+                    <label for="select-all">전체 약관 동의</label>
+                    <ul class="policy-list">
+                        <li>
+                            <div class="chk-wrap">
+                                <input type="checkbox" name="term" class="terms required" value="OVER_14" id="term1">
+                                <label for="term1">[필수]만 14세 이상</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="chk-wrap">
+                                <input type="checkbox" name="term" class="terms required" value="SERVICE_AGREEMENT"
+                                    id="term2">
+                                <label for="term2">[필수] 서비스 약관 동의</label>
+                            </div>
+                            <a href="#" class="view-detail">보기</a>
+                        </li>
+                        <li>
+                            <div class="chk-wrap">                                
+                                <input type="checkbox" name="term" class="terms required" value="PRIVATE_POLICY"
+                                    id="term3">
+                                <label for="term3">[필수] 개인정보처리방침 및 제3자 제공 동의</label>
+                            </div>
+                            <a href="#" class="view-detail">보기</a>
+                        </li>
+                        <li>
+                            <div class="chk-wrap">
+                                <input type="checkbox" name="term" class="terms" value="MARKETTING" id="term4">
+                                <label for="term4">[선택] 마케팅 활용 및 광고성 정보 수신 동의</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <button class="redbutton" type="submit">가입하기</button>
+            </section>
+        </form>
+    </main>
+</body>
+
+</html>
