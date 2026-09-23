@@ -45,7 +45,7 @@
 
 <br>
 
-## ▶️ 실행 방법
+## ▶️ 실행 방법 (★260923 각 html 연동작업 완료★)
 
 별도의 설치 과정은 필요하지 않습니다.
 
@@ -55,15 +55,10 @@
 git clone https://github.com/aiagentohms/mock_up_team3.git
 ```
 
-2. 원하는 화면의 폴더로 이동합니다.
+2. team_sparta.html 파일을 엽니다.
 
-3. 해당 HTML 파일을 브라우저에서 엽니다.
+3. 볼드체 버튼을 클릭해 이동하며 각 구성원이 제작한 페이지를 살펴봅니다.
 
-예시:
-
-```bash
-open "_2_이명지_전체강의/mock-page/all_lecture.html"
-```
 
 또는 VS Code의 **Live Server** 확장 프로그램으로 실행하면 더 편리하게 확인할 수 있습니다.
 

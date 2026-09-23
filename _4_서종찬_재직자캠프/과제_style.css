@@ -8,6 +8,11 @@ body{
     background-position: center;
 }
 
+.logo-link{
+    display: flex;
+    align-items: center;
+}
+
 .header{
     display: flex;
     align-items: center;

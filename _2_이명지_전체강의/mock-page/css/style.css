@@ -177,6 +177,9 @@ header.fixed .header-section1 {
 }
 
 .login {
+    display: block;          /* 기존 <p> 레이아웃 유지 */
+    margin: 13px 0;          /* <p> 기본 상하 여백(1em = 13px) 유지 */
+    text-decoration: none;
     border: 1px solid rgb(232, 52, 78);
     border-radius: 4px;
     padding: 8px;
