@@ -77,6 +77,9 @@ html {
 #site-header {
     padding: var(--spacing-16) var(--spacing-24) var(--spacing-12);
 }
+#logo-link {
+    display: flex;
+}
 #header-top {
     display: flex;
     align-items: center;
@@ -130,6 +133,7 @@ html {
     color: var(--color-primary);
 }
 #login-button {
+    cursor: pointer;
     width: 60px;
     height: 36px;
     color: var(--color-primary);
